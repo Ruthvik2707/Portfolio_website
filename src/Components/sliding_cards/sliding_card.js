@@ -1,6 +1,5 @@
 import React from 'react'
 import './sliding_cars.css'
-import R from './reactpic.jpg'
 // import '@fortawesome/fontawesome-free/css/all.min.css';
 // let activeIndex = 0;
 
@@ -39,98 +38,49 @@ import R from './reactpic.jpg'
 // }
 function sliding_card() {
   return (
-  <div class='mai'>  <div class="card-swiper">
-  <div class="card-groups">
-    <div class="card-group" data-index="0" data-status="active">
-      <div class="little-card card">
+  <><div class='skill_text'><h1>My skills</h1></div><div class='mai'>  <div class="card-swiper">
+      <div class="card-groups">
+        <div class="card-group" data-index="0" data-status="active">
+          <div class="little-card card">
 
-      </div>
-      <div class="big-card card">
-        <img  class='big' alt='react' src={R}></img>
+          </div>
+          <div class="big-card card">
 
-      </div>
-      <div class="little-card card">
+          </div>
+          <div class="little-card card">
 
-      </div>
-      <div class="big-card card">
+          </div>
+          <div class="big-card card">
 
-      </div>
-      <div class="little-card card">
+          </div>
+          <div class="little-card card">
 
-      </div>
-      <div class="big-card card">
+          </div>
+          <div class="big-card card">
 
-      </div>
-      <div class="little-card card">
+            {/* <img  class='big' alt='react' src={R}></img> */}
+          </div>
+          <div class="little-card card">
 
-      </div>
-      <div class="big-card card">
+          </div>
+          <div class="big-card card">
+            {/* <img  class='big' alt='node' src={N}></img> */}
 
+          </div>
+        </div>
+        
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card-group" data-index="1" data-status="unknown">
-      <div class="little-card card">
-
-      </div>
-      <div class="big-card card">
-
-      </div>
-      <div class="little-card card">
-
-      </div>
-      <div class="big-card card">
-
-      </div>
-      <div class="little-card card">
-
-      </div>
-      <div class="big-card card">
-
-      </div>
-      <div class="little-card card">
-
-      </div>
-      <div class="big-card card">
-
-      </div>
-    </div>
-    <div class="card-group" data-index="2" data-status="unknown">
-      <div class="little-card card">
-
-      </div>
-      <div class="big-card card">
-
-      </div>
-      <div class="little-card card">
-
-      </div>
-      <div class="big-card card">
-
-      </div>
-      <div class="little-card card">
-
-      </div>
-      <div class="big-card card">
-
-      </div>
-      <div class="little-card card">
-
-      </div>
-      <div class="big-card card">
-
-      </div>
-    </div>
-  </div>
-  {/* <div class="card-swiper-buttons">
-    <button id="hate-button" onClick={handleHateClick}>
-      <i className='fa-solid fa-x'></i>
-    </button>
-    <button id="love-button" onClick={handleLoveClick}>
-      <i className="fa-solid fa-heart"></i>
-    </button>
-  </div>  */}
-</div>
-</div>
+      {/* <div class="card-swiper-buttons">
+      <button id="hate-button" onClick={handleHateClick}>
+        <i className='fa-solid fa-x'></i>
+      </button>
+      <button id="love-button" onClick={handleLoveClick}>
+        <i className="fa-solid fa-heart"></i>
+      </button>
+    </div>  */}
+    </>
 
 
 )

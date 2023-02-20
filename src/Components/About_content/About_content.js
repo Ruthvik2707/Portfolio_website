@@ -6,7 +6,7 @@ function About_content() {
   return (
         <div class="content">
           <div class="text">
-            <h1 class="heading">Me,Myslef and I</h1>
+            <h1 class="heading">Me,Myself and I</h1>
             <p class="alignment">I'm a web developer well versed in both front-end development and back-end development located in India.I am ambitious and passionate about my work and i classify myself as a creative developer</p>
             <p class="alignment">I'm a well organised person, problem solver and i am a good team player. Interested in Reading books that are based on fantasy </p>
             <p class="alignment"> I am well versed web development and looking forward to work in ambitious projects and meet positive people to work with</p>

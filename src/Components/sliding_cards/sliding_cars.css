@@ -75,22 +75,22 @@
   }
   
   .big-card:nth-child(2) {
-    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fbitnetinfotech.com%2Fwp-content%2Fuploads%2F2022%2F08%2FFrameworks-for-React-JS.jpg&imgrefurl=https%3A%2F%2Fbitnetinfotech.com%2Fwhy-use-react-js-for-web-development%25EF%25BF%25BC%2F&tbnid=kR3HK7p2z5si2M&vet=12ahUKEwiJr9OKo_78AhVVmeYKHQjpA40QMygCegUIARC-AQ..i&docid=AbIw0kuqDkB1iM&w=1600&h=1069&q=react%20js%20pics%20blue&ved=2ahUKEwiJr9OKo_78AhVVmeYKHQjpA40QMygCegUIARC-AQ");
+    background-image: url("./mongo.png");
     transform: translateX(-10%) rotate(-1deg);
   }
   
   .big-card:nth-child(4) {
-    background-image: url("https://images.unsplash.com/photo-1534351450181-ea9f78427fe8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-image: url("./express.jpeg");
     transform: rotate(2deg);
   }
   
   .big-card:nth-child(6) {
-    background-image: url("https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-image: url("./reactpic.jpg");
     transform: translateX(-6%) rotate(-3deg);
   }
   
   .big-card:nth-child(8) {
-    background-image: url("https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-image: url("./node.png");
     transform: translate(10%, 3%) rotate(5deg);
   }
   
@@ -99,31 +99,31 @@
   }
   
   .card-group[data-index="1"] > .big-card:nth-child(8) {
-    background-image: url("https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    /* background-image: url("https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"); */
   }
   
   .card-group[data-index="2"] > .big-card:nth-child(4) {
-    background-image: url("https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    /* background-image: url("https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"); */
   }
   
   .card-group[data-index="2"] > .big-card:nth-child(8) {
-    background-image: url("https://images.unsplash.com/photo-1534351450181-ea9f78427fe8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    /* background-image: url("https://images.unsplash.com/photo-1534351450181-ea9f78427fe8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRvZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"); */
   }
   
   .little-card:nth-child(1) {
-    background-image: url("https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2F0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-image: url("./python.png");
   }
   
   .little-card:nth-child(3) {
-    background-image: url("https://images.unsplash.com/photo-1548546738-8509cb246ed3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2F0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-image: url("./js.jpg");
   }
   
   .little-card:nth-child(5) {
-    background-image: url("https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNhdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-image: url("./git.webp");
   }
   
   .little-card:nth-child(7) {
-    background-image: url("https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGNhdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-image: url("./kotlin.png");
   }
   
   .card-group:hover > .card {  
@@ -182,19 +182,17 @@
     cursor: pointer;
   }
   
-  #love-button {
-    color: rgb(33, 150, 243);
-    border-color: rgb(33, 150, 243);
-  }
-  
-  
-  #hate-button{
-    color:#ff0054;
-    border-color:#ff0054;
-
-  }
   .big{
     width:100%;
     height:100%;
     border-radius: 10px;
+    object-fit: cover;
+  }
+  .skill_text{
+    color:rgb(6, 228, 240);;
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top:15%;
   }
