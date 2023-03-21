@@ -1,6 +1,6 @@
 import React from 'react'
 import './About_content.css'
-import image from './My_img.jpg'
+import imag from './My_img.jpg'
 
 function About_content() {
   return (
@@ -14,7 +14,7 @@ function About_content() {
             <a href=''><p class ="link">Lets make something special</p></a>
             </div> */}
           </div>
-          <div class="info"><div class="image"><img  class="image" src={image} alt="My-_img"></img></div>
+          <div class="info"><div class="profile"><img  class="profile" src={imag} alt="My-_img"></img></div>
           <div class="education"><h1>Education</h1><p>Bachelor's degree in Electronics Engineering:7.5CGPA</p>
           <p>Intermediate:94%</p>
           <p>10th:9.5CGPA</p></div>

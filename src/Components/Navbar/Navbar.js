@@ -53,7 +53,7 @@ function Navbar() {
         <p>Web Developer</p>
       </div>
       <div class="nav-buttons-group">
-        <Link class="idk" to="/socials"><div class="nav_buttons" onClick={handleClickScrollhome}>Home</div></Link>
+        <Link class="idk" to="/home"><div class="nav_buttons" onClick={handleClickScrollhome}>Home</div></Link>
         <Link class="idk" to="/about"><div class="nav_buttons" onClick={handleClickScrollabout}>About</div></Link>
         <Link class="idk" to="/myskill"><div class="nav_buttons" onClick={handleClickScrollmy}>My skills</div></Link>
         <Link class="idk" to="/work"><div class="nav_buttons" onClick={handleClickScrollwork}>work</div></Link>

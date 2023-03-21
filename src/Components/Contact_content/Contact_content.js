@@ -12,7 +12,7 @@ function Contact_content() {
           {/* <h1 class="text">I am Interested to work for an organisation or a freelancing oppurtunity</h1> */}
           {/* <h1 class="text">If you have any specific questions contact me here ot through my socials</h1> */}
         </div>  
-        <div class="box">
+        <div class="atap">
           <input class="button_in Name" type="text" placeholder='Name'></input>
           <input class="button_in email" type="email" placeholder='Email'></input>
           <input class="button_in subject" type="text" placeholder='subject'></input>

@@ -3,41 +3,12 @@
     height:100vh;
     position: relative;
     left:10%;
-    top:20vh;
+    /* top:20vh; */
+    margin-top: 5%;
     padding: 0px;
-    overflow: hidden;
-}
-.container_1{
-    top:10%;
-    width:70vw;
-    position: relative;
-    left:5%;
-    display: flex;
-    flex-direction: row;
-}
-.container_2{
-    top:10%;
-    width:70vw;
-    position: relative;
-    left:5%;
-    display: flex;
-    flex-direction: row;
-}
-.project_cards{
-    list-style: none;
-    width:20%;
-    aspect-ratio : 1/1;
-    background-color: grey;
-    border: 2px solid green;
-}
-.out{
-    width:30%;
-    aspect-ratio: 1/1;
-    background-color: teal;
-    position: absolute;
-    right:10%;
-    top:20%;
-    overflow:hidden;
+    display: grid;
+    /* overflow: hidden; */
+    justify-content: center;
 }
 .head{
     /* color:white; */
@@ -45,3 +16,118 @@
     color:rgb(6, 228, 240);;
     font-size: 2rem;
 }
+
+.container {
+    width:80vw;
+    right:10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    /* align-items: center; */
+    height: 300px;
+    gap:2px;
+  }
+  
+  .afap{
+    background-color:black;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    gap:1%;
+    width:20vw;
+    height:30vh;
+    /* border-radius: 50%; */
+    overflow: hidden;
+  }
+  .image{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 0%;
+    /* overflow: hidden; */
+  }
+  .image:hover{
+    transform: scale(1.2);
+    transition: 0.9s;
+    animation: ease-in-out 3s;
+  }
+  .seven{
+    grid-column: 4;
+    grid-row: 1/4;
+    width: 100% ;
+    height: 100%;
+    /* gap:20%; */
+    text-align: center;
+    }
+.one:hover{
+  cursor: pointer;
+}
+.two:hover{
+  cursor: pointer;
+}
+.three:hover{
+  cursor: pointer;
+}
+.four:hover{
+  cursor: pointer;
+}
+.five:hover{
+  cursor: pointer;
+}
+.six:hover{
+  cursor: pointer;
+}
+
+.one:hover ~ .seven:before{
+  /* background-color:red; */
+  color:rgb(6, 228, 240);
+  animation: fadeIn 1s;
+  content: open-quote "Built a mobile application using Kotlin to dispaly a random input that is given by the user from a pool of inputs. Check my github for furthur details";
+  cursor: pointer;
+}
+.two:hover ~ .seven:before{
+  content: open-quote "Built a web application using React and Node to see how different alogirithms work by displaying their path finding mechanism. Check my github for furthur details" close-quote;
+  color: rgb(6, 228, 240);
+  /* background-color: teal; */
+  animation: fadeIn 1s;
+  cursor: pointer;
+}
+.three:hover ~ .seven:before{
+  content: open-quote "Cloned a site that was featured in the css winner website using basic HTML and css. Check my github for furthur details" close-quote;
+  color: rgb(6, 228, 240);
+  /* background-color: teal; */
+  animation: fadeIn 1s;
+  cursor: pointer;
+}
+.four:hover ~ .seven:before{
+  content: open-quote "Built a Bluetooth beacon that can send advertisements to devices within its proximity.Check my github for furthur details" close-quote;
+  color: rgb(6, 228, 240);
+  /* background-color: teal; */
+  animation: fadeIn 1s;
+  cursor: pointer;
+}
+.five:hover ~ .seven:before{
+  content: open-quote "An Aurdino UNO based accident detection system that alerts the driver and emergency services in case of emergency. Check my github for furthur details" close-quote;
+  color: rgb(6, 228, 240);
+  /* background-color: teal; */
+  animation: fadeIn 1s;
+  cursor:pointer;
+}
+.six:hover ~ .seven::before{
+  /* clear: right; */
+  content: open-quote "A React.js project that uses Node.js to present the wheather at that particular time and location. Check my Github for furthur details" close-quote;
+  /* line-break: auto; */
+  /* content:   "Furthur details are available in my git hub"; */
+  color: rgb(6, 228, 240);
+  /* background-color: teal; */
+  animation: fadeIn 1s;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+

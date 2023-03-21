@@ -72,14 +72,6 @@ function sliding_card() {
           </div>
         </div>
       </div>
-      {/* <div class="card-swiper-buttons">
-      <button id="hate-button" onClick={handleHateClick}>
-        <i className='fa-solid fa-x'></i>
-      </button>
-      <button id="love-button" onClick={handleLoveClick}>
-        <i className="fa-solid fa-heart"></i>
-      </button>
-    </div>  */}
     </>
 
 
