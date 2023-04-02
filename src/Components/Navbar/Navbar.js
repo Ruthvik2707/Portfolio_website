@@ -37,12 +37,12 @@ function Navbar() {
       work.scrollIntoView({behavior:'smooth'});
     }
   }
-  const handleClickScrollblog=()=>{
-    const blog=document.getElementById('blog');
-    if (blog){
-      blog.scrollIntoView({behavior:'smooth'});
-    }
-  }
+//   const handleClickScrollblog=()=>{
+//     const blog=document.getElementById('blog');
+//     if (blog){
+//       blog.scrollIntoView({behavior:'smooth'});
+//     }
+//   }
   
   ;
   return (
@@ -57,7 +57,7 @@ function Navbar() {
         <Link class="idk" to="/about"><div class="nav_buttons" onClick={handleClickScrollabout}>About</div></Link>
         <Link class="idk" to="/myskill"><div class="nav_buttons" onClick={handleClickScrollmy}>My skills</div></Link>
         <Link class="idk" to="/work"><div class="nav_buttons" onClick={handleClickScrollwork}>work</div></Link>
-        <Link class="idk" to="/blogs"><div class="nav_buttons" onClick={handleClickScrollblog}>Blogs</div></Link>
+//         <Link class="idk" to="/blogs"><div class="nav_buttons" onClick={handleClickScrollblog}>Blogs</div></Link>
         <Link class="idk" to="/contact" onClick={handleClickScroll}><div class="nav_buttons">contact</div></Link>
         <div class="nav_buttons"><a class="Link" target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/ruthvik-k-s-720a52232/"><img class="social linkedin" alt='1e'src={linked}></img></a></div>
         <div class="nav_buttons"><a class="Link" target="_blank" rel='noreferrer' href="https://github.com/Ruthvik2707"><img class=" social git_icon" alt='2e' src={git}></img></a></div>
